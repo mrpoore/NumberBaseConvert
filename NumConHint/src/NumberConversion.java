@@ -16,11 +16,11 @@ public class NumberConversion {
 		
 		if (strNbr.charAt(0) =='1')
 		{
-				binary = JOptionPane.showInputDialog("Enter a binary number");
+				binary = JOptionPane.showInputDialog("Enter a binary number:");
 				decimal = bintodec(binary);
 				JOptionPane.showMessageDialog(null, binary + " = " + decimal +" in base 10");
 		} else {	
-				decimal = Integer.parseInt(JOptionPane.showInputDialog("Enter a decimal number"));
+				decimal = Integer.parseInt(JOptionPane.showInputDialog("Enter a decimal numbe:r"));
 				binary = dectobin(decimal);
 				JOptionPane.showMessageDialog(null, decimal + " = " + binary + " in base 2");
 		}
